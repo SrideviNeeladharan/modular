@@ -5,24 +5,40 @@ box-sizing: border-box;
 width:90%;
 margin: auto;
 max-height: 100%;
+  
 }
 h1{
+  background-color: black;
   text-align: center;
+  color: beige;
+  margin-top: 0;
   /*position: fixed;*/
 }
 
 nav{
-  width:35%;
+  width:25%;
   float: left;
   border-right: 1px solid darkgray;
 }
+.mainmenu{
+  padding-top: 1rem;
+  color:black;
+  font-size: medium;
+  font-weight: bolder;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
  
+li{
+list-style: none;
+}
 
 a{
     text-decoration: none;
     color: black;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: medium;
+    font-size: small;
 }
 ul.sub1{
   padding:1rem;
@@ -33,28 +49,37 @@ ul.sub1{
 article{
   float: left;
   width:auto;
+  padding-left: 2rem;
+}
+h5,p{
+margin-bottom: 0;
+}
+h4{
+  border:1px solid black;
+  text-align: center;
+  width: 6rem;
+  margin-left: 6rem;
+  padding: 1rem;
+  
 }
 
 img{
-  width:15rem;
+  width:13rem;
   height: 15rem;
   /*-webkit-transition: height 4s width 2s;
   transition: height 4s, width 2s;
   transition-timing-function: fast;
   transition-delay: 1s;*/
   }
-figure{
+.item1{
   
   border:1px solid black;
-  width:17rem;
+  width:18rem;
   text-align: center;
 }
-img:hover{
+/*img:hover{
    width: 20rem;
   height:20rem;
 }
-p{}
 
-/*fig{
-border:.25rem solid black;
-}
+
