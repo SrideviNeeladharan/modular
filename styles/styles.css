@@ -54,12 +54,12 @@ article{
 h5,p{
 margin-bottom: 0;
 }
-h4{
-  border:1px solid black;
+button{
+  /*border:1px solid black;
   text-align: center;
-  width: 6rem;
-  margin-left: 6rem;
-  padding: 1rem;
+  width: 6rem;*/
+  margin: .5rem;
+  padding: .5rem;
   
 }
 
